@@ -1,0 +1,55 @@
+.home {
+  color: white;
+}
+.home_middleContainer > h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.home_middleContainer > p {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.home_middle {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home_searchBox {
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 20px;
+  border-radius: 15px;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.home_searchBox > input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.bottom_left {
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+}
+
+.bottom_right {
+  position: absolute;
+  bottom: 0;
+  right: 12px;
+}
+.bottom_right > a {
+  color: white;
+}
